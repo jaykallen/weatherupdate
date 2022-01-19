@@ -31,7 +31,7 @@ object RestManager {
             })
     }
 
-    private fun initiateRetrofit(): ApiService {
+    fun initiateRetrofit(): ApiService {
         val gSon = GsonBuilder()
             .setLenient()
             .create()
